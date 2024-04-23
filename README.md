@@ -45,6 +45,7 @@ CVE: Not yet assigned
 Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projets.php' page.
 
 Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
+
 ---------------------------------------------------------------------------------------------
 
 Exploit Title: SOPlanning v1.52.00 'groupe_save.php' XSS (Reflected XSS)
