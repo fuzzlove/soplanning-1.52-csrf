@@ -24,7 +24,7 @@ Liquidsky @ Specialized Security Services Inc. (S3) | Shout out to the team!
 
 _________________________________________________________________________________________
 
-Exploit Title: SOPlanning v1.52.00 'projects.php' (SQLi)
+Exploit Title: SOPlanning v1.52.00 'projets.php' (SQLi)
 
 Application: SOPlanning
 
@@ -42,6 +42,6 @@ Tested on: Linux
 
 CVE: Not yet assigned
 
-Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projects.php' page.
+Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projets.php' page.
 
 Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
