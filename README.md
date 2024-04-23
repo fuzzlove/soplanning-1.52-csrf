@@ -48,13 +48,21 @@ Instructions: Authenticate to the host, the credentials can be obtained using a 
 ---------------------------------------------------------------------------------------------
 
 Exploit Title: SOPlanning v1.52.00 'groupe_save.php' XSS (Reflected XSS)
+
 Application: SOPlanning
+
 Version: 1.52.00
+
 Date: 4/22/24
+
 Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+
 Vendor Homepage: https://www.soplanning.org/en/
+
 Software Link: https://sourceforge.net/projects/soplanning/
+
 Tested on: Linux
+
 CVE: Not yet assigned
 
 Description: SOPlanning v1.52.00 is vulnerable to XSS via the 'groupe_id' parameters a remote unautheticated attacker can hijack the admin account or other users. The remote attacker can hijack a users session or credentials and perform a takeover of the entire platform.
