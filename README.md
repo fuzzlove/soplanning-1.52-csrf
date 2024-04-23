@@ -24,7 +24,7 @@ Liquidsky @ Specialized Security Services Inc. (S3) | Shout out to the team!
 
 _________________________________________________________________________________________
 
-Exploit Title: SOPlanning v1.52.00 'xajax_server.php' CSRF (Account Takeover)
+Exploit Title: SOPlanning v1.52.00 'projects.php' (SQLi)
 
 Application: SOPlanning
 
