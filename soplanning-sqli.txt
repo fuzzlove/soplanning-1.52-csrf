@@ -14,7 +14,7 @@ Software Link: https://sourceforge.net/projects/soplanning/
 
 Tested on: Linux
 
-CVE: Not yet assigned
+CVE: CVE-2024-33722
 
 Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projects.php' page.
 
