@@ -12,6 +12,8 @@ Vendor Homepage: https://www.soplanning.org/en/
 
 Software Link: https://sourceforge.net/projects/soplanning/
 
+Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-csrf-exploit-README.txt
+
 Tested on: Linux
 
 CVE: CVE-2020-9266
