@@ -34,7 +34,7 @@ Version: 1.52.00
 
 Date: 4/22/24
 
-Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+Exploit Author: Joseph McPeters (Liquidsky)
 
 Vendor Homepage: https://www.soplanning.org/en/
 
@@ -60,7 +60,7 @@ Version: 1.52.00
 
 Date: 4/22/24
 
-Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+Exploit Author: Joseph McPeters (Liquidsky)
 
 Vendor Homepage: https://www.soplanning.org/en/
 
