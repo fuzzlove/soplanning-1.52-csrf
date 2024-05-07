@@ -49,6 +49,8 @@ Tested on: Linux
 
 CVE: CVE-2024-33722
 
+Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-sqli-README.txt
+
 Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projects.php' page.
 
 Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
