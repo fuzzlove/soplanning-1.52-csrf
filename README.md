@@ -1,21 +1,12 @@
 Exploit Title: SOPlanning v1.52.00 'xajax_server.php' CSRF (Account Takeover)
-
 Application: SOPlanning
-
 Version: 1.52.00
-
 Date: 4/22/24
-
 Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
-
 Vendor Homepage: https://www.soplanning.org/en/
-
 Software Link: https://sourceforge.net/projects/soplanning/
-
 Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-csrf-exploit-README.txt
-
 Tested on: Linux
-
 CVE: CVE-2020-9266
 
 Description: SOPlanning v1.52.00 is vulnerable to CSRF via 'xajax_server.php' a remote unautheticated attacker can hijack the admin account. The remote attacker can force the admins browser to make requests by sending them to an external page and update the admins password and email therefore taking over the admin panel.
@@ -27,21 +18,13 @@ Liquidsky @ Specialized Security Services Inc. (S3) | Shout out to the team!
 _________________________________________________________________________________________
 
 Exploit Title: SOPlanning v1.52.00 'projets.php' (SQLi)
-
 Application: SOPlanning
-
 Version: 1.52.00
-
 Date: 4/22/24
-
 Exploit Author: Joseph McPeters (Liquidsky)
-
 Vendor Homepage: https://www.soplanning.org/en/
-
 Software Link: https://sourceforge.net/projects/soplanning/
-
 Tested on: Linux
-
 CVE: CVE-2024-33722
 
 Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-sqli-README.txt
@@ -53,23 +36,14 @@ Instructions: Authenticate to the host, the credentials can be obtained using a 
 ---------------------------------------------------------------------------------------------
 
 Exploit Title: SOPlanning v1.52.00 'groupe_save.php' XSS (Reflected XSS)
-
 Application: SOPlanning
-
 Version: 1.52.00
-
 Date: 4/22/24
-
 Exploit Author: Joseph McPeters (Liquidsky)
-
 Vendor Homepage: https://www.soplanning.org/en/
-
 Software Link: https://sourceforge.net/projects/soplanning/
-
 Tested on: Linux
-
 CVE: CVE-2024-33724
-
 Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-XSS-README.txt
 
 Description: SOPlanning v1.52.00 is vulnerable to XSS via the 'groupe_id' parameters a remote unautheticated attacker can hijack the admin account or other users. The remote attacker can hijack a users session or credentials and perform a takeover of the entire platform.
