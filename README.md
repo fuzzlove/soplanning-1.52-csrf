@@ -1,10 +1,17 @@
 Exploit Title: SOPlanning v1.52.00 'xajax_server.php' CSRF (Account Takeover)
+
 Application: SOPlanning
+
 Version: 1.52.00
+
 Date: 4/22/24
+
 Exploit Author: Joseph McPeters (Liquidsky aka fuzzlove)
+
 Vendor Homepage: https://www.soplanning.org/en/
+
 Software Link: https://sourceforge.net/projects/soplanning/
+
 Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-csrf-exploit-README.txt
 Tested on: Linux
 CVE: CVE-2020-9266
@@ -36,11 +43,17 @@ Instructions: Authenticate to the host, the credentials can be obtained using a 
 ---------------------------------------------------------------------------------------------
 
 Exploit Title: SOPlanning v1.52.00 'groupe_save.php' XSS (Reflected XSS)
+
 Application: SOPlanning
+
 Version: 1.52.00
+
 Date: 4/22/24
+
 Exploit Author: Joseph McPeters (Liquidsky)
+
 Vendor Homepage: https://www.soplanning.org/en/
+
 Software Link: https://sourceforge.net/projects/soplanning/
 Tested on: Linux
 CVE: CVE-2024-33724
