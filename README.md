@@ -70,6 +70,8 @@ Tested on: Linux
 
 CVE: CVE-2024-33724
 
+Exploit: https://github.com/fuzzlove/soplanning-1.52-exploits/blob/main/soplanning-XSS-README.txt
+
 Description: SOPlanning v1.52.00 is vulnerable to XSS via the 'groupe_id' parameters a remote unautheticated attacker can hijack the admin account or other users. The remote attacker can hijack a users session or credentials and perform a takeover of the entire platform.
 
 Example Payload:
